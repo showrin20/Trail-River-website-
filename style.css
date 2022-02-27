@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.common-width{
+    width: 1360px;
+    margin: auto;
+}
+header{
+    background-color: #618138;
+}
+.common-width .styles{
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+    
+    word-spacing: 3px;
+}
+.common-width .styles span a{
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #c0d3a9;
+}
+.logo{
+    width: 22%;
+}
+.logo img{
+    display: block;
+    margin: 10px 0;
+}
+.logo h1{
+    color: #3e3e3e;
+    float: left;
+    margin-top: -77px;
+    margin-left: 70px;
+    font-size: 52px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    width: 100%;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: #3e3e3e;
+}
+.menu-bar{
+    width: 80%;
+    float: right;
+}
+.menu-bar ul{
+    text-align: right;
+    margin-top: -80px;
+}
+.menu-bar ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.menu-bar ul li a{
+    color: #969696;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 77px;
+}
+.menu-bar ul li a span{
+    padding-right: 5px;
+}
+.Menu-bar{
+    width: 100%;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+.Menu-bar ul{
+    text-align: center;
+    
+}
+.Menu-bar ul li{
+    display: inline-block;
+    list-style-type: none;
+    border-left: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    padding: 10px 45px;
+}
+.Menu-bar ul li a{
+    color: #3e3e3e;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+}
+.dress-bar{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 19px 29px -4px rgba(156,156,156,0.68);
+    -webkit-box-shadow: 0px 19px 29px -4px rgba(156,156,156,0.68);
+    -moz-box-shadow: 0px 19px 29px -4px rgba(156,156,156,0.68);
+}
+.dress-bar ul{
+    text-align: center;
+}
+.dress-bar ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 55px 0;
+}
+.dress-bar ul li a{
+    color: #3e3e3e;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+.banner{
+    background-image: url(../image/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-inner{
+    width: 535px;
+    text-align: left;
+}
+.overlay{
+    padding: 45px 40px 150px;
+}
+.banner-inner h1{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+}
+.banner-inner h2{
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.banner-inner h3{
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    width: 177px;
+    border: 3px solid #fff;
+    padding: 15px 20px 15px 10px;
+}
+.banner-inner a{
+    color: #fff;
+    text-decoration: none;
+}
+.image{
+    margin-bottom: 30px;
+}
+.common-width .image img{
+    margin: 30px 0 30px;
+    float: left;
+}
+.common-width .fish{
+    background-image: url(../image/fish.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 434px;
+    height: 365px;
+    margin: 30px 0;
+    margin-right: 25px;
+}
+.image .overlaying{
+    float: left;
+    margin-top: 268px;
+    padding: 15px 33px 15px 20px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+.image-inner h2{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.image-inner h4{
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+.common-width .boat{
+    background-image: url(../image/boat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 434px;
+    height: 365px;
+    margin-top: -395px;
+    margin-left: 462px;
+}
+.common-width .map{
+    background-image: url(../image/map.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 434px;
+    height: 365px;
+    margin-top: -365px;
+    margin-left: 925px;
+}
+.box-1{
+    float: left;
+    width: 734px;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 25px;
+    margin-top: 14px;
+}
+.box-2{
+    float: right;
+    width: 734px;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 25px;
+    margin-top: -42px;
+}
+.brands{
+    margin-top: 30px;
+}
+.brands h2{
+    color: #969696;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+    text-align: center;
+    margin-right: 740px;
+}
+.common-width .popular-brands img{
+    margin: auto;
+    padding: 40px 0 45px;
+    margin-left: 55px;
+}
+.common-width .left-arrow img{
+    float: left;
+    margin-top: -100px;
+}
+.common-width .right-arrow img{
+    float: right;
+    margin-top: -105px;
+}
+.common-width .product1{
+    position: absolute;
+    background-image: url(../image/product-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 666px;
+    height: 365px;
+}
+.product1 .overlap{
+    float: left;
+    padding: 15px 33px 15px 20px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    margin-top: 269px;
+}
+.common-width .product2{
+    position: absolute;
+    background-image: url(../image/product-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 666px;
+    height: 365px;
+    margin-left: 694px;
+}
+.product2 .overlap{
+    float: left;
+    padding: 15px 33px 15px 20px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    margin-top: 269px;
+}
+.Box-1{
+    float: left;
+    width: 715px;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 25px;
+    margin-top: 14px;
+}
+.Box-2{
+    float: right;
+    width: 715px;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 25px;
+    margin-top: -42px;
+}
+.shop{
+    margin-top: 390px;
+}
+.shop h2{
+    color: #969696;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+    text-align: center;
+    margin-right: 735px;
+}
+.common-width .Images{
+    display: inline-block;
+    margin: 0 9px;
+}
+.Images a{
+    text-decoration: none;
+}
+.texts h1{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #878787;
+}
+.texts h3{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #878787;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.texts h2{
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: #878787;
+}
+.texts h4{
+    float: right;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #878787;
+    margin-top: -27px;
+}
+.texts h5{
+    float: right;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #878787;
+    margin-top: -25px;
+    margin-right: 35px;
+}
+.texts h5 .fa{
+    padding: 0 2px;
+}
+.common-width .scenerio2{
+    position: absolute;
+    float: right;
+    background-image: url(../image/scenery-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 365px;
+    margin-left: 859px;
+    margin-top: -393px;
+}
+.scenerio{
+    margin: 60px 0 25px;
+}
+.scenerio2 .Image-Inner h1{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+}
+.scenerio2 .Image-Inner p{
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    word-spacing: 3px;
+    text-align: justify;
+}
+.scenerio2 .Image-Inner h3{
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    border: 2px solid #fff;
+    width: 216px;
+    margin: 20px 0;
+    padding: 10px 15px;
+}
+.scenerio2 .Image-Inner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.scenerio2 .overlapping{
+    float: left;
+    padding: 50px 55px 18px 40px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+.common-width .banner2{
+    background-image: url(../image/banner-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 145px;
+    margin-bottom: 30px;
+}
+.common-width .inside{
+    margin-left: 230px;
+    padding-top: 35px;
+}
+.common-width .logo2{
+    float: left;
+}
+.common-width .logo3{
+    float: left;
+    margin-left: -26px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.overlaped{
+    background-color: rgba(0, 0, 0, .2);
+    padding-bottom: 20px;
+}
+.IMAGE-INNER{
+    padding-top: 25px;
+}
+.IMAGE-INNER h1{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: -30px;
+}
+.IMAGE-INNER h2{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+}
+.IMAGE-INNER h3{
+    color: #fff;
+    float: right;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    width: 22%;
+    margin-top: -80px;
+    margin-right: 500px;
+}
+.IMAGE-INNER h4{
+    color: #fff;
+    float: right;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    border: 2px solid #fff;
+    width: 14%;
+    padding: 15px 20px;
+    margin-top: -80px;
+    margin-right: 260px;
+}
+.IMAGE-INNER a{
+    text-decoration: none;
+}
+.background{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 280px;
+}
+.common-width .contact{
+    float: left;
+}
+.Customer{
+    padding-top: 55px;
+    margin-left: 170px;
+}
+.Customer h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #7e7e7e;
+    padding-bottom: 15px;
+}
+.Customer ul li{
+    list-style-type: none;
+    padding-bottom: 13px;
+}
+.Customer ul li a{
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #7e7e7e;
+}
+
+.Company{
+    margin-top: -182px;
+    margin-left: 515px;
+}
+.Company h2{
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #7e7e7e;
+    padding-bottom: 15px;
+}
+.Company ul li{
+    list-style-type: none;
+    padding-bottom: 13px;
+}
+.Company ul li a{
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #7e7e7e;
+}
+.LOG{
+    margin-top: -180px;
+    margin-left: 860px;
+}
+.LOG h2{
+    color: #7d7d7d;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    margin-left: 80px;
+    margin-top: -96px;
+}
+.LOG h4{
+    color: #7d7d7d;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    width: 47%;
+    margin-left: 80px;
+    margin-top: -10px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+}
+.card{
+    float: right;
+    margin-right: 165px;
+}
+.card img{
+    padding-left: 5px;
+}
+.card .authorize{
+    margin-right: 250px;
+}
+.card .mastercard{
+    margin-left: 95px;
+    margin-top: -54px;
+}
+.card .visa{
+    float: right;
+    margin-top: -37px;
+    margin-right: 123px;
+}
+.card .americanexpress{
+    margin-top: -38px;
+    margin-left: 225px;
+}
+.card .discover img{
+    float: right;
+    margin-top: -38px;
+    margin-right: -186px;
+}
+.Background{
+    background-color: #618138;
+}
+.MENU{
+    width: 80%;
+}
+.MENU ul{
+    text-align: left;
+    padding: 10px 0;
+    margin-left: 90px;
+}
+.MENU ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
+}
+.MENU ul li a{
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+}
+.MENU ul li a span{
+    padding-right: 5px;
+}
+.Footer{
+    float: right;
+    font-size: 17px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    margin-top: -38px;
+    word-spacing: 5px;
+    margin-right: 90px;
+}
+.Footer a{
+    color: #fff;
+    text-decoration: none;
+}
